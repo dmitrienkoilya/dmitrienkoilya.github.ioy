@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	width: 100%;
+	font-size: 48PX;
+}
+
+body{
+	background: #FFA500;
+	font-family:Regular ;
+}
+
+main{
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+	background: white;
+	padding: 50px;
+	margin: auto;
+	justify-content: center;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+@font-face{
+	font-family: Hurricane;
+	src: url(../fonts/Hurricane-Regular.ttf) ;
+
+}
+
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16*9);
+	background-color:blue ;
+	margin:20px;
+	background-size: cover;
+	background-size: contain;
+	transition: all 0.4s ease;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+     
+}
+
+.photo:hover{
+	transform: scale(1.07) rotate(2deg);
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.7);
+}
+
+.photo2{
+	background-image: url(../img/img2.jpg);
+}home
+
+.photo3{
+	background-image: url(../img/img3.jpg);
+}
+.photo4{
+	background-image: url(../img/img4.jpg);
+}
+.photo5{
+	background-image: url(../img/img5.jpg);
+}
+.photo6{
+	background-image: url(../img/img6.jpg);
+}
+.photo7{
+	background-image: url(../img/img7.jpg);
+}
+.photo8{
+	background-image: url(../img/img8.jpg);
+}
+.photo9{
+	background-image: url(../img/img9.jpg);
+}
+.photo10{
+	background-image: url(../img/img10.jpg);
+}
+.photo11{
+	background-image: url(../img/img11.jpg);
+}
+.photo12{
+	background-image: url(../img/img12.jpg);
+}
+.photo13{
+	background-image: url(../img/img13.jpg);
+}
+.___photo1{
+	background-image: url(../img/img1.jpg);
+}
+i,im 
